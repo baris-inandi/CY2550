@@ -1,6 +1,6 @@
 hashcat -m 500 -a 0 -O \
-  -r rockyou-30000.rule \
-  --session=rock30k \
+  -r rules/T0XlC.rule \
+  --session=toxic \
   --status \
   --status-timer=60 \
   --outfile=hashcat-cracked.txt \
