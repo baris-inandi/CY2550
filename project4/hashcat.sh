@@ -1,6 +1,6 @@
 hashcat -m 500 -a 0 -O \
-  -r rules/T0XlC.rule \
-  --session=toxic \
+  -r rules/best66.rule \
+  --session=best66 \
   --status \
   --status-timer=300 \
   --outfile=hashcat-cracked.txt \
